@@ -1,0 +1,28 @@
+﻿<Page x:Class="pr7_regist.RegPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:pr7_regist"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RegPage">
+
+    <Grid>
+        <Button Name="Btn_Reg" Content="Зарегестрироваться" HorizontalAlignment="Left" Height="39" Margin="131,224,0,0" VerticalAlignment="Top" Width="348" Click="Btn_Log_Click"/>
+
+        <TextBox Name="TxtBox_log_Reg" HorizontalAlignment="Left" Margin="240,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" Height="29"/>
+        <TextBox Name="TxtBox_password_Reg" HorizontalAlignment="Left" Margin="240,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" Height="28"/>
+        <TextBox Name="TxtBox_password_again" HorizontalAlignment="Left" Margin="241,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" Height="29"/>
+        <TextBox Name="TxtBox_fio_Reg" HorizontalAlignment="Left" Margin="241,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" Height="28"/>
+
+
+        <Label Content="Введите логин" HorizontalAlignment="Left" Height="29" Margin="74,34,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Введите пароль" HorizontalAlignment="Left" Height="28" Margin="74,68,0,0" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Подтвердите пароль" HorizontalAlignment="Left" Height="28" Margin="75,105,0,0" VerticalAlignment="Top" Width="131"/>
+        <Label Content="Введите ФИО" HorizontalAlignment="Left" Height="28" Margin="75,134,0,0" VerticalAlignment="Top" Width="139"/>
+
+        <Button Name="Btn_return1" Content="Назад" HorizontalAlignment="Left" Margin="503,292,0,0" VerticalAlignment="Top" Click="Btn_return_Click" Height="29" Width="74"/>
+
+    </Grid>
+</Page>

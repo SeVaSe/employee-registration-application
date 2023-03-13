@@ -1,0 +1,26 @@
+﻿<Window x:Class="pr7_regist.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr7_regist"
+        mc:Ignorable="d"
+        Title="Главное меню" Height="383" Width="674" >
+
+    <Grid>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header ="МЕНЮ" Height="33" Width="62">
+                <MenuItem Header="Авторизация" Click="OnClose1" Background="OldLace"/>
+                <MenuItem Header="Регистрация" Click="OnClose2" Background="OldLace"/>
+                <MenuItem Header="Выход" Click="OnClose" Background="OldLace"/>
+
+            </MenuItem>
+
+        </Menu>
+
+
+
+
+
+    </Grid>
+</Window>

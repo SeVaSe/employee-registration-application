@@ -24,7 +24,7 @@ namespace pr7_regist
         {
             InitializeComponent();
         }
-
+        // Кнопочки
         //Выход
         private void OnClose(object sender, RoutedEventArgs e)
         {
